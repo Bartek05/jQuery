@@ -8,7 +8,7 @@ $(function(){
 	}
 
 	function moveFirstSlide(){
-		var firstItem = carouselList.find("li:first");
+		var firstItem = carouselList.find("li:first"),
 		    lastItem = carouselList.find("li:last");
 
 		lastItem.after(firstItem);
